@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-{ char Name[40], G[5], answer[10];
+{ char Name[60], G[5], answer[10];
   int i;
   do
   {
-    printf("What is your NAME? ");
+    printf("Kimino No Namai Wa? ");
     scanf("%s", Name);
     do
     {
@@ -33,8 +33,8 @@ void main()
     }
     else if (strcmp(G, "AB") == 0)
     {
-      printf("%s, AB. Oh my God, you can give blood only to: AB.\n", Name);
-      printf("  Wow, you can receive blood from all: O, A, B, AB.\n");
+      printf("%s, AB. Oh my Sissyyyy, you can give blood only to: AB.\n", Name);
+      printf("  Opps, you can receive blood from all: O, A, B, AB.\n");
     }
     else
     {
